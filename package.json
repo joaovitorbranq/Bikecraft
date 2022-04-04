@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "name": "Bikecraft",
+  "version": "1.0.0",
+  "description": "A bike selling website for a college assignment",
+  "main": "index.js",
+  "repository": "https://github.com/joaovitorbranq/Bikecraft.git",
+  "author": "João Vitor Branquinho Ribeiro",
+  "license": "MIT",
+  "private": true
+}
