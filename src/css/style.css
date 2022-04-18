@@ -1,0 +1,84 @@
+/* body{
+
+} */
+
+
+li + li {
+  margin-left: 15px;
+}
+
+
+div a + a {
+  margin-left: 15px;
+}
+
+blockquote{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+blockquote p{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: italic;
+}
+
+
+blockquote cite{
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+}
+
+
+
+
+
+
+
+.introducao{
+  background: url('../../assets/img/bg.jpg') no-repeat center;
+  background-size: cover;
+  height: 380px;
+  margin-top: 76px;
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-intro{
+  font-size: 48px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.quote-externo {
+  max-width: 320px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: white;
+}
+
+
+.itens-nav{
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  font-size: 14px;
+  color: #000;
+}
+
+
+.navbar {
+  padding: 2px 5px;
+}
+
+
+
