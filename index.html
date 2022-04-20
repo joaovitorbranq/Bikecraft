@@ -11,41 +11,30 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-
 <body>
 	<header>
 
 		<nav class="navbar navbar-light bg-warning navbar-expand-md fixed-top">
 			<div class="container-fluid">
 
-				<a class="navbar-brand" href="#"><img src="assets/img/bikcraft.svg" alt="Logo Bikcraft"></a>
+				<a class="navbar-brand" href="index.html"><img src="assets/img/bikcraft.svg" alt="Logo Bikcraft"></a>
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle hamburger menu">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle-hamburger-menu">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
 				<div class="collapse navbar-collapse" id="menu">
 
 					<div class="itens-nav nav navbar-nav me-auto">
-						<li>
-							<a class="nav-item nav-link" href="#sobre">Sobre</a>
-						</li>
-						<li>
-							<a class="nav-item nav-link" href="#produtos">Produtos</a>
-						</li>
-						<li>
-							<a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-						</li>
-						<li>
-							<a class="nav-item nav-link" href="#contato">Contato</a>
-						</li>
+						<li><a class="nav-item nav-link" href="src/sobre.html">Sobre</a></li>
+						<li><a class="nav-item nav-link" href="#produtos">Produtos</a></li>
+						<li><a class="nav-item nav-link" href="#portfolio">Portfolio</a></li>
+						<li><a class="nav-item nav-link" href="#contato">Contato</a></li>
 					</div>
 
-
-
 					<div class="itens-nav nav navbar-nav">
-						<a class="nav-item nav-link" href="#entrar"><i class="fa fa-sign-in" aria-hidden="true"></i> Entrar</a>
-						<a class="nav-item nav-link" href="#cadastro"><i class="fa fa-fw fa-user"></i> Cadastro</a>
+						<a class="nav-item nav-link" href="src/login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Entrar</a>
+						<a class="nav-item nav-link" href="src/cadastro.html"><i class="fa fa-fw fa-user"></i> Cadastro</a>
 					</div>
 
 				</div>
@@ -53,27 +42,55 @@
 		</nav>
 	</header>
 
-	<section class="introducao">
-
+	<section class="introducao mb-3">
 		<div class="container-fluid">
+
 			<h1 class="titulo-intro">BICICLETAS FEITAS A MÃO</h1>
-			<blockquote class="fadeInDown quote-externo">
-
-				<p>“não tenha nada em sua casa que você não considere útil ou acredita ser bonito”</p>
-				<cite>WILLIAM MORRIS</cite>
-
+			<blockquote class="quote-externo blockquote-footer">
+				<p class="blockquote citacao">“ Lorem ipsum dolor sit amet consectetur adipisicing elit. ”</p>
+				<cite>Alguém, provavelmente</cite>
 			</blockquote>
 
 		</div>
+	</section>
 
 
 
+	<section class="produtos container-fluid mb-5">
 
+		<h2 id="subtitulo" class="mb-5">Produtos</h2>
 
+		<div class="card-group">
+			<div id="card-passeio" class="card mb-4">
+				<img class="bg-black" src="assets/img/passeio.svg" alt="card-passeio">
+				<div class="card-body bg-warning ">
+					<div class="text-center">
+						<h5 class="card-title">PASSEIO</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+					</div>
+				</div>
+			</div>
 
+			<div id="card-esporte" class="card mb-4">
+				<img class="bg-black" src="assets/img/esporte.svg" alt="card-esporte">
+				<div class="card-body bg-warning ">
+					<div class="text-center">
+						<h5 class="card-title">ESPORTE</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+					</div>
+				</div>
+			</div>
 
-
-
+			<div id="card-esporte" class="card mb-4">
+				<img class="bg-black" src="assets/img/retro.svg" alt="card-retro">
+				<div class="card-body bg-warning ">
+					<div class="text-center">
+						<h5 class="card-title">RETRO</h5>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</section>
 
@@ -83,8 +100,34 @@
 
 
 
+	<footer>
+		<div class="footer">
+			<div class="row">
 
+				<div class="col-xl-8 col-lg-6 col-md-12 col-sm-12">
+					<h3 class="text-warning">Nossa História</h3>
+					<p>Algum resumo da marca ou algo assim.<br> ipsum dolor sit amet consectetur adipisicing elit.Quisquam est facilis voluptates blanditiis. Alias numquam, quis ab accusantium officia vero recusandae, dolorum quod ut ipsam ipsa a quae odit tempore.
+					</p>
+				</div>
 
+				<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+					<h3 class="text-warning"> Contato</h3>
+					<ul>
+						<li>+55 21 99999-9999</li>
+						<li>loremipsum@exemplo.com</li>
+						<li>Rua Logo ali, 99 - Lapa</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="rodape bg-warning">
+			<div class="container-fluid">
+				<p class="col-16 text-warning">texto de apoio, nada para ver por aqui </p>
+			</div>
+		</div>
+	</footer>
 
 
 
