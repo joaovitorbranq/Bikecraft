@@ -1,12 +1,6 @@
 /* body{
-
+  width: 100%;
 } */
-
-
-li + li {
-  margin-left: 15px;
-}
-
 
 div a + a {
   margin-left: 15px;
@@ -29,10 +23,12 @@ blockquote p{
 }
 
 
-blockquote cite{
+cite{
   font-weight: bold;
   font-size: 14px;
   letter-spacing: .1em;
+  font-style: normal;
+  
 }
 
 
@@ -40,6 +36,9 @@ blockquote cite{
 
 
 
+.itens-nav li + li {
+  margin-left: 15px;
+}
 
 .introducao{
   background: url('../../assets/img/bg.jpg') no-repeat center;
@@ -50,6 +49,7 @@ blockquote cite{
   text-align: center;
   padding-top: 80px;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 .titulo-intro{
@@ -66,7 +66,6 @@ blockquote cite{
   color: white;
 }
 
-
 .itens-nav{
   font-weight: 500;
   text-transform: uppercase;
@@ -75,10 +74,61 @@ blockquote cite{
   color: #000;
 }
 
+.footer{
+  background-size: cover;
+  background: #000;
+  color: #fff;
+  padding: 20px 15px 10px 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rodape{
+  position: relative;
+  padding: 7px 0;
+}
 
 .navbar {
   padding: 2px 5px;
 }
 
+.citacao{
+  font-size: 15px;
+}
 
 
+
+
+#subtitulo{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .05em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card{
+  margin: 0px 25px 0px 25px
+}
+
+
+.formulario{
+
+  margin: 100px 0px 150px 25px;
+}
+
+.form-check-label{
+  font-size: small;
+}
+
+.sobre{
+  margin: 100px 0px 150px 25px;
+  padding: 0px 100px 0px 100px;
+}
+
+#img-sobre{
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
