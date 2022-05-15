@@ -1,4 +1,3 @@
-
 div a + a {
   margin-left: 15px;
 }
@@ -19,7 +18,6 @@ blockquote p{
   font-style: italic;
 }
 
-
 cite{
   font-weight: bold;
   font-size: 14px;
@@ -27,9 +25,6 @@ cite{
   font-style: normal;
   
 }
-
-
-
 
 .itens-nav li + li {
   margin-left: 15px;
@@ -90,9 +85,6 @@ cite{
   font-size: 15px;
 }
 
-
-
-
 #subtitulo{
   font-size: 24px;
   line-height: 30px;
@@ -106,7 +98,6 @@ cite{
 .card{
   margin: 0px 25px 0px 25px
 }
-
 
 .formulario{
 
@@ -126,4 +117,13 @@ cite{
   margin-top: 20px;
   width: 100%;
   height: auto;
+}
+
+.likes_e_dislikes{
+  display: flex
+}
+
+/* aplica o cursor de selecionar em cima dos botoes de like */
+.likes_e_dislikes > *{ 
+  cursor: pointer;
 }
